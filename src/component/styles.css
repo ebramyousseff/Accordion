@@ -1,0 +1,63 @@
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* General Question styling */
+  section {
+    background-color: rgb(77, 77, 199);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Closed state styling */
+  section.closed {
+    background-color: #ffffff;
+  }
+  
+  /* Open state styling */
+  section.open {
+    background-color: #f0f8ff;
+  }
+  
+  /* Header (title + button) */
+  section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  button:hover {
+    color: #007BFF;
+  }
+  
+  /* Question title */
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Info text */
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
